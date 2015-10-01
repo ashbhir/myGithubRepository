@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where is my cab?"
+        android:id="@+id/receivebutton"
+        android:layout_below="@+id/textRoute"
+        android:layout_alignLeft="@+id/deletebutton"
+        android:layout_alignStart="@+id/deletebutton"
+        android:layout_marginTop="86dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I'm in the cab"
+        android:id="@+id/sendbutton"
+        android:layout_below="@+id/receivebutton"
+        android:layout_marginTop="86dp"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I reached office"
+        android:id="@+id/deletebutton"
+        android:layout_below="@+id/sendbutton"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/textUsername"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Route"
+        android:id="@+id/textRoute"
+        android:layout_below="@+id/textUsername"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
